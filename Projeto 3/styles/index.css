@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
 
 body {
     background-color: #656565;
@@ -6,8 +7,9 @@ body {
     margin: 0 auto;
     padding: 10px;
     font-family: 'Rubik', sans-serif;
-
 }
+
+/* INDEX */
 
 header {
     display: flex;
@@ -30,7 +32,7 @@ h2 {
     font-size: 56px;
 }
 
-p {
+.p-index {
     width: 500px;
     text-align: justify;
     font-weight: bold;
@@ -68,11 +70,11 @@ a:hover {
 }
 
 main {
+    max-width: 100%;
     display: flex;
     flex-direction: row;
     margin-top: 50px;
 }
-
 
 form {
     display: flex;
@@ -82,7 +84,7 @@ form {
 
 form [type="submit"] {
     height: 50px;
-    width: 50%;
+    width: 100%;
     background-color: black;
     color: white;
     font-weight: bold;
@@ -101,8 +103,33 @@ input {
     font-size: 15px;
 }
 
-
 img {
     width: 80%;
     margin-left: 30%;
+}
+
+
+/* CONTA */
+
+#p-conta {
+    text-align: center;
+    align-items: center;
+    font-style: italic;
+}
+
+#form-conta {
+    width: 20%;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: 35%;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+#input-conta {
+    margin-top: auto;
+    margin-bottom: 15px;
+    width: 90%;
+    padding: 6px;
 }
