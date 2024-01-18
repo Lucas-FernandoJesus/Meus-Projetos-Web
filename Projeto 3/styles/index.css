@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,600&display=swap');
+
+body {
+    background-color: #656565;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#titulo {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    height: 20px;
+}
+
+h2 {
+    font-size: 56px;
+}
+
+p {
+    width: 500px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+span {
+    color: red;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+#inscreva-se-btn {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#inscreva-se-btn:hover {
+    color: black;
+    border: 2px solid red;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    color: black;
+    transition: 2s all;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+input {
+    border: none;
+    border-radius: 20px;
+    height: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+
+img {
+    width: 80%;
+    margin-left: 30%;
+}
