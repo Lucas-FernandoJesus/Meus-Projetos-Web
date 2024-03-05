@@ -1,19 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url("./media.css");
 @import url("./reset.css");
-
-body{
-  background-color: #4a7aff;
-  font-family: 'Rubik', sans-serif;
-  color: white;
-  width: 100%;
-  height: 100%;
-}
-
-
-
-
-
 /*LOGIN*/
 
 .section-login{
@@ -36,7 +23,7 @@ body{
   height: 250px;
   margin-top: 5%;
   padding: 2%;
-  border: 1px solid #396248;
+  border: 1px solid #94a44c;
   border-radius: 5px;
 }
 .login-inputs{
@@ -55,30 +42,79 @@ body{
   border: none;
   border-radius: 5px;
 }
-
 .btn-login{
-  background-color: transparent;
-  color: white;
+  cursor: pointer;
+  background-color: white;
+  color: black;
   font-weight: 800;
   border: none;
   margin-top: 10px;
   padding: 10px;
-  border: 1px solid #396248;
+  border: 1px solid #94a44c;
   border-radius: 5px;
 }
+form [type="submit"] {
+  border:1px solid #94a44c;
+  background-color: transparent;
+}
+form [type="submit"]:hover {
+  transition: 2s;
+  background-color: #94a44c;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
 
+/*MENU*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.menu-left{
+  width: 45px;
+  height: 100%;
+  background-color: white;
+  padding: 40px 0px 40px 1%;
+  box-shadow: 3px 0 0 #94a44c;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: .5s;
+}
+.menu-left:hover{
+  width: 235px;
+  justify-content: left;
+}
+.btn-expan{
+  width: 100%;
+  margin-left: 12%;
+}
+.btn-expan i{
+  color: #4a7aff;
+  font-size: 32px;
+  cursor: pointer;
+}
+.menu-left ul{
+  height: 100%;
+  list-style-type: none;
+}
+ul li.item-menu{
+  transition: 1s;
+}
+ul li.item-menu:hover{
+  color: white;
+  background-color: #94a44c;
+}
+ul li.item-menu a{
+  display: flex;
+  font-size: 20px;
+  padding: 20px 4%;
+  line-height: 40px;
+}
+ul li.item-menu a .text-link{
+  margin-left: 10px;
+  color: #4a7aff;
+}
+ul li.item-menu a .icon i{
+  color: #4a7aff;
+  font-size: 30px;
+  margin-left: 5px;
+}
