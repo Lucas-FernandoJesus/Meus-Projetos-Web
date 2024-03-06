@@ -14,13 +14,40 @@
       <form class="login" action="">
         <div class="login-inputs">
           <label>User</label>
-          <input class="input" type="text" placeholder="User" />
+          <input class="input" type="text" placeholder="User" id="login" />
           <label class="label">Password</label>
-          <input class="input" type="password" placeholder="Password" />
+          <input
+            class="input"
+            type="password"
+            placeholder="Password"
+            id="password"
+          />
           <label class="label"></label>
-          <input class="btn-login" type="submit" value="Log in" />
+          <input
+            class="btn-login"
+            type="submit"
+            value="Log in"
+            onclick="logar(); return false"
+          />
         </div>
       </form>
     </section>
+
+    <!-- VERIFICAÇÃO -->
+
+    <script>
+      function logar() {
+        var login = document.getElementById("login").value;
+        var password = document.getElementById("password").value;
+
+        if(login == 'admin'  && password == 'admin'){
+          alert("sucess on login");
+          location.href = "menu.html";
+        }
+        else{
+          alert("User or passwor incorrect");
+        }
+      }
+    </script>
   </body>
 </html>
