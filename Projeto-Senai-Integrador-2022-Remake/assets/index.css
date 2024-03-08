@@ -45,7 +45,7 @@
 .btn-login{
   cursor: pointer;
   background-color: white;
-  color: black;
+  color: white;
   font-weight: 800;
   border: none;
   margin-top: 10px;
@@ -61,7 +61,7 @@ form [type="submit"]:hover {
   transition: 2s;
   background-color: #94a44c;
   border: 1px solid white;
-  color: white;
+  color: #4a7aff;
   cursor: pointer;
 }
 
