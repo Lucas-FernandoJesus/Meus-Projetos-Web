@@ -118,3 +118,29 @@ ul li.item-menu a .icon i{
   font-size: 30px;
   margin-left: 5px;
 }
+
+/* USUÁRIO */
+
+.usuario-section{
+  background-color: #94a44c;
+  display: flex;
+  justify-content: left;
+  width: 75%;
+  margin-left: 15%;
+}
+.usuario-table{
+  justify-content: center;
+  background-color: red;
+  margin-top: 10%;
+  
+}
+.body-usuario{
+  background-color: white;
+}
+td{
+  background-color: black;
+  margin: 25px;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+}
